@@ -30,7 +30,7 @@ public class LoginPage {
 	//4 . Page Actions
 	
 	
-	@Step("--------login page title test-------") 
+	@Step("--------login page title test 1234-------") 
 	public String getLoginPageTitle() {
 		return driver.getTitle();
 	}
