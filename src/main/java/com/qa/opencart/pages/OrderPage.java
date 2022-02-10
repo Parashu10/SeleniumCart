@@ -1,10 +1,14 @@
 package com.qa.opencart.pages;
 
+import org.openqa.selenium.By;
+
 public class OrderPage {
 	
 	String orderID;
 	
-	public void getOrderID() {
+	By locator = By.id("check");
+	
+	public void getOrderProduct() {
 		System.out.println("Order id");
 	}
 
